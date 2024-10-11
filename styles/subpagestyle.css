@@ -15,15 +15,14 @@ body {
 }
 
 .navlink {
-    color: #E6E145; /* Consistent link color */
-    margin: 0 15px; /* Space between links */
-    text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Make the font bold */
+    color: #E6E145;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .navlink:hover {
-    background-color: #521F99; /* Hover background color */
-    transition: background-color 0.3s; /* Smooth transition for hover */
+    text-decoration: underline;
 }
 
 p {
