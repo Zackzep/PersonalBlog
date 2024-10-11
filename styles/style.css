@@ -20,14 +20,16 @@ header {
     padding: 15px;
 }
 
-.navlink {
+.navlink,   /* General link styles */
+h3 a {      /* Link styles in h3 */
     color: #E6E145;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.navlink:hover {
+.navlink:hover,  /* Hover styles for general links */
+h3 a:hover {     /* Hover styles for links in h3 */
     text-decoration: underline;
 }
 
@@ -67,17 +69,14 @@ header {
     padding: 15px;
 }
 
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 h3 {
     margin: 0 0 10px;
-}
-
-h3 a {
-    color: #E6E145;
-    text-decoration: none;
-}
-
-h3 a:hover {
-    text-decoration: underline;
 }
 
 p {
